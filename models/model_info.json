@@ -1,0 +1,17 @@
+{
+  "class_names": [
+    "amoxicillin",
+    "ibuprofen",
+    "not_a_pill",
+    "paracentamol"
+  ],
+  "input_size": [
+    224,
+    224
+  ],
+  "training_samples": 437,
+  "validation_samples": 110,
+  "validation_accuracy": 0.9636363387107849,
+  "training_accuracy": 1.0,
+  "notes": "Model includes negative examples (not_a_pill class) to reduce false positives"
+}
